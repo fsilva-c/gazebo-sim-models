@@ -1,0 +1,17 @@
+material DRP/etiqueta_c
+{
+  technique
+  {
+    pass
+    {
+      scene_blend alpha_blend
+      depth_write off
+
+      texture_unit
+      {
+        texture ../textures/etiqueta_c.png
+        filtering trilinear
+      }
+    }
+  }
+}
