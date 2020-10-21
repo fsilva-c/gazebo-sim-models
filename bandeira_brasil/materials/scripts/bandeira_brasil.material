@@ -6,7 +6,7 @@ material FS/bandeira_brasil
 		{
 			texture_unit
 			{
-				texture bandeira.jpg
+				texture ../textures/bandeira.jpg
 				filtering anistropic
 			}
 		}

@@ -10,7 +10,7 @@ material DRP/alambrado
       texture_unit
       {
         scale 0.1 0.1
-        texture grade.png
+        texture ../textures/grade.png
         filtering trilinear
       }
     }
