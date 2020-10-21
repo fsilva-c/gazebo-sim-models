@@ -1,0 +1,17 @@
+material DRP/qrcode_b
+{
+  technique
+  {
+    pass
+    {
+      scene_blend alpha_blend
+      depth_write off
+
+      texture_unit
+      {
+        texture ../textures/qrcode_b.png
+        filtering trilinear
+      }
+    }
+  }
+}

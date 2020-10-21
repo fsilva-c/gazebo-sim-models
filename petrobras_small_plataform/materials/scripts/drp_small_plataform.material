@@ -1,0 +1,14 @@
+material DRP/plataform
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture ../textures/plat_menor.jpg
+				filtering anistropic
+			}
+		}
+	}
+}

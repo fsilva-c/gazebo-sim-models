@@ -1,0 +1,18 @@
+material DRP/alambrado
+{
+  technique
+  {
+    pass
+    {
+      scene_blend alpha_blend
+      depth_write off
+
+      texture_unit
+      {
+        scale 0.1 0.1
+        texture ../textures/grade.png
+        filtering trilinear
+      }
+    }
+  }
+}

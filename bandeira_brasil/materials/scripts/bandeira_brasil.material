@@ -1,0 +1,14 @@
+material FS/bandeira_brasil
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture ../textures/bandeira.jpg
+				filtering anistropic
+			}
+		}
+	}
+}

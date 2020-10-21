@@ -1,0 +1,14 @@
+material DRP/largePlataform
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture ../textures/plat_maior.jpg
+				filtering anistropic
+			}
+		}
+	}
+}
